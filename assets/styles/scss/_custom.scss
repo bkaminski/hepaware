@@ -7,6 +7,11 @@ a {
 p {
 	color: #170404;
 }
+.secondary-heading {
+	color: #bf0531;
+	letter-spacing: 0.05em;
+	font-weight: 500;
+}
 .sub-header {
 	min-height: 44px;
 	width: 100%;
@@ -28,11 +33,10 @@ p {
 	min-height: 620px;
 	display: block;
 	background: #e9e9e9;
-
 }
 // Custom Buttons
 .btn-outline-red1 {
-  color: #840421;
+  color: #bf0531;
   border-color: #e9e9e9;
   transition: 0.3s ease-in-out;
 
@@ -40,5 +44,19 @@ p {
     color: #e9e9e9;
     background-color: #c43f57;
   }
+}
+.btn-outline-red2 {
+  color: #fff;
+  border-color: #e9e9e9;
+  background-color: #680413;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #e9e9e9;
+    background-color: #c43f57;
+  }
+}
+.border-red1 {
+    border-color: #bf0531;
 }
 //
