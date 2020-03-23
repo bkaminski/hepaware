@@ -16,7 +16,7 @@
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #000;
+    background: #170404;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -27,3 +27,16 @@
   }
 }
 //
+.jumbotron {
+	background: none;
+}
+.modal {
+    overflow-y: auto;
+    padding-right: 0px !important;
+}
+.modal-open {
+    overflow: auto;
+}
+.modal-open[style] {
+    padding-right: 0px !important;
+} 
