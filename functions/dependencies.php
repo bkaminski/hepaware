@@ -13,3 +13,10 @@ function enqueue_ha_styles() {
     wp_enqueue_style('ha-styles', get_template_directory_uri() . '/assets/styles/haStyles.min.css');
 }
 add_action('wp_enqueue_scripts', 'enqueue_ha_styles');
+
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/functions/class-wp-bootstrap-navwalker.php';
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'hepaware' ),
+));
+// Nav Walker

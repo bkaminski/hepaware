@@ -1,0 +1,29 @@
+// Nav link underline animation
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  padding: 15px 15px;
+  position: relative;
+  font-weight: bold;
+
+  &:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  &:hover:after {
+    width: 100%;
+    left: 0;
+  }
+}
+//
