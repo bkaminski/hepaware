@@ -23,3 +23,7 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+	<div class="sub-header">
+		<p class="text-center text-white pt-2">Some text can go here.</p>
+	</div>
+	<?php get_template_part( 'parts/home', 'nav' ); ?>
