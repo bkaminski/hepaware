@@ -73,7 +73,7 @@ function excerpt_read_more_link($output)
 }
 add_filter('the_excerpt', 'excerpt_read_more_link');
 //REMOVE COMMENTS FEED RSS
-add_filter( 'feed_links_show_comments_feed', '__return_false' );
+remove_action( 'wp_head', 'feed_links', 2 );
 
 //REMOVE WP VERSION FROM CODE
 function ha_remove_version() {
@@ -88,3 +88,9 @@ if (defined('WPSEO_VERSION')) {
 }
 //AUTO UPDATE PLUGINS
 add_filter( 'auto_update_plugin', '__return_true' );
+
+//DISABLE GUTENBERG CSS
+add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+function wps_deregister_styles() {
+    wp_dequeue_style( 'wp-block-library' );
+}
