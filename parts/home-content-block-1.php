@@ -5,6 +5,9 @@
 			<div class="container">
 				<h1 class="display-4 text-center text-white">HepAware</h1>
 				<p class="lead text-center text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus placerat lorem id rhoncus. Etiam vehicula iaculis sem eu rutrum. Nullam ac aliquet lectus, ac viverra erat. Vivamus aliquam lacus velit, eget sollicitudin turpis maximus nec. Sed interdum volutpat ornare. Cras lacinia lorem eget congue ultricies.</p>
+				<div class="text-center">
+					<a class="btn btn-outline-red1 btn-lg rounded-0 pr-5 pl-5" href="#" role="button">Donate Now</a>
+				</div>
 			</div>
 		</div>
 	</div>
