@@ -22,7 +22,8 @@
 					</ul>
 			</div>
 			<div class="col-md-4">
-				<h4 class="text-white">Donate</h4>
+				<h4 class="text-white pb-3">Donate</h4>
+				<a class="btn btn-outline-red2 btn-lg pl-5 pr-5 rounded-0" href="#" role="button">Donate Now</a>
 			</div>
 		</div>
 	</div>
