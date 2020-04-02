@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-<section>
+<header>
 	<?php get_template_part( 'parts/home', 'hero' ); ?>
 
-</section>
+</header>
 <main>
 	<?php get_template_part( 'parts/home', 'main' ); ?>
 

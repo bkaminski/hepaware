@@ -1,4 +1,4 @@
-<footer class="ha-footer">
+<footer class="ha-footer pb-2">
 	<div class="container pt-5">
 		<div class="row">
 			<div class="col-md-4">
@@ -11,7 +11,7 @@
 				</address>
 
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 footer-links">
 				<h4 class="text-white">Helpful Links</h4>
 					<ul>
 						<li>Information</li>
@@ -28,7 +28,7 @@
 		</div>
 	</div>
 	<div class="col text-center copyright">
-		<p>Copyright &copy; <?php echo date('Y'); ?> HepAware</p>
+		<p><small>Copyright &copy; <?php echo date('Y'); ?> HepAware</small></p>
 	</div>
 </footer>
 <?php wp_footer(); ?>
