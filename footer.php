@@ -23,7 +23,7 @@
 			</div>
 			<div class="col-md-4">
 				<h4 class="text-white pb-3">Donate</h4>
-				<a class="btn btn-outline-red2 btn-lg pl-5 pr-5 rounded-0" href="#" role="button">Donate Now</a>
+				<a class="btn btn-outline-red2 btn-lg pl-5 pr-5 rounded-0" href="#" role="button">Donate Now <i class="fas fa-angle-double-right fa-fw fa-lg"></i></a>
 			</div>
 		</div>
 	</div>

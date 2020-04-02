@@ -1,18 +1,28 @@
 <div class="news-area">
 	<div class="container pb-5">
 		<h2 class="h5 text-center secondary-heading text-uppercase pt-5 pb-5">In The News</h2>
-		<div class="row">
-			<div class="col-md-6">
-				<?php $uploads = wp_upload_dir(); 
-				echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2020/04/business-man-1031755_1920.jpg' ) . '" alt="news image">'
-				;?>
-
-			</div>
-			<div class="col-md-6">
-				<h3>Headline About Topic</h3>
-				<p class="pb-3">Donec imperdiet felis sed metus varius semper. Suspendisse gravida id felis fermentum consequat. Suspendisse tempor ligula est, eget suscipit mi consectetur vel. Sed et ex porta, mollis eros at, ultrices velit. Integer tempor, augue sagittis tempus malesuada, neque magna sagittis nunc, nec venenatis lorem nibh nec dolor.</p>
-				<a class="btn btn-outline-red2 btn-lg pl-5 pr-5 rounded-0" href="#">Read More</a>
-			</div>
-		</div>
+			<?php $the_query = new WP_Query( 'posts_per_page=1' ); ?>
+			<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+				<div class="row">
+					<div class="col-md-6">
+						<figure>
+							<a href="<?php the_permalink(); ?>">
+								<?php the_post_thumbnail( 'large', array( 'class' => 'img-thumbnail' ) ); ?>
+									
+							</a>
+						</figure>
+					</div>
+					<div class="col-md-6">
+						<h3><?php the_title(); ?></h3>
+						<small>
+							<time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished">
+								<u>Posted on: <?php echo get_the_date(); ?></u>
+									
+							</time>
+						</small>
+						<?php the_excerpt(); ?>
+					</div>
+				</div>
+			<?php endwhile; wp_reset_postdata(); ?>
 	</div>
 </div>

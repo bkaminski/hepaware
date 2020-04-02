@@ -1,7 +1,10 @@
 <?php get_header(); ?>
-<section>
+<header>
+	<?php get_template_part( 'parts/page', 'header' ); ?>
 
+</header>
+<article>
+	<?php get_template_part( 'parts/page', 'news-loop-single' ); ?>
 
-
-</section>
+</article>
 <?php get_footer(); ?>

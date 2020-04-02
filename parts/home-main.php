@@ -12,7 +12,7 @@
 						<p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 					<div class="card-footer text-center">
-						<a class="btn btn-outline-red2 btn-lg rounded-0 pr-5 pl-5" href="#" role="button">Learn more</a>
+						<a class="btn btn-outline-red2 btn-lg rounded-0 pr-5 pl-5" href="#" role="button">Learn more <i class="fas fa-angle-double-right fa-fw fa-lg"></i></a>
 					</div>
 				</div>
 				<div class="card border-red1">
@@ -25,7 +25,7 @@
 						<p class="card-text text-center">This card has supporting text below as a natural lead-in to additional content.</p>
 					</div>
 					<div class="card-footer text-center">
-						<a class="btn btn-outline-red2 btn-lg rounded-0 pr-5 pl-5" href="#" role="button">Learn more</a>
+						<a class="btn btn-outline-red2 btn-lg rounded-0 pr-5 pl-5" href="#" role="button">Learn more <i class="fas fa-angle-double-right fa-fw fa-lg"></i></a>
 					</div>
 				</div>
 				<div class="card border-red1">
@@ -38,7 +38,7 @@
 						<p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 					</div>
 					<div class="card-footer text-center">
-						<a class="btn btn-outline-red2 btn-lg rounded-0 pr-5 pl-5" href="#" role="button">Learn more</a>
+						<a class="btn btn-outline-red2 btn-lg rounded-0 pr-5 pl-5" href="#" role="button">Learn more <i class="fas fa-angle-double-right fa-fw fa-lg"></i></a>
 					</div>
 				</div>
 			</div>
