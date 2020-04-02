@@ -4,6 +4,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
 	outline: none;
 }
+a[rel~="tag"] {
+	color: #fff;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		color: #ccc;
+		transition: 0.3s ease-in-out;
+	}
+}
 p {
 	color: #170404;
 }
@@ -95,6 +103,14 @@ p {
 	padding: 0;
 	margin-left: 8px;
 }
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.tag-area {
+	background: #a03d51;
+}
+
 // Custom Buttons
 .btn-outline-red1 {
   color: #e9e9e9;
