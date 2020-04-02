@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <header>
-	<?php get_template_part( 'parts/page', 'header' ); ?>
+	<?php get_template_part( 'parts/page', 'news-header' ); ?>
 
 </header>
 <article>

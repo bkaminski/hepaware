@@ -11,13 +11,10 @@
 					</figure>
 				</div>
 				<div class="col-md-12">
-					<small>
-						<time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished">
-							<u>Posted on: <?php echo get_the_date(); ?></u>
-								
-						</time>
-					</small>
+					<h2><?php the_title(); ?></h2>
+					<small><u>Posted on: <?php echo get_the_date(); ?></u></small>
 					<?php the_content(); ?>
+
 				</div>
 			</div>
 		<?php endwhile; else : ?>
