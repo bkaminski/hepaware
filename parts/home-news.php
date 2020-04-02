@@ -15,10 +15,8 @@
 					<div class="col-md-6">
 						<h3><?php the_title(); ?></h3>
 						<small>
-							<time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished">
-								<u>Posted on: <?php echo get_the_date(); ?></u>
-									
-							</time>
+							<u>Posted on: <?php echo get_the_date(); ?></u>
+						
 						</small>
 						<?php the_excerpt(); ?>
 					</div>
