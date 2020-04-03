@@ -8,7 +8,7 @@
 
 </main>
 <section>
-	<?php get_template_part( 'parts/home', 'content-block-1' ); ?>
+	<?php get_template_part( 'parts/home', 'mission' ); ?>
 
 </section>
 <section>

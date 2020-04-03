@@ -1,4 +1,4 @@
-<div class="home-content-1">
+<div class="home-mission">
 	<div class="container">
 		<h2 class="h5 text-center tertiary-heading text-uppercase pt-5 pb-5">Mission and Objectives</h2>
 			<div class="container">

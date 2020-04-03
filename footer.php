@@ -7,7 +7,7 @@
 					HepAware<br />
 					123 Market St.<br />
 					Wilmington, DE 19803<br />
-					Phone: (302) 333-7888
+					(302) 333-7888
 				</address>
 
 			</div>
@@ -21,7 +21,7 @@
 						<li>Resources</li>
 					</ul>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 donate--footer">
+			<div class="col-xs-12 col-sm-12 col-md-4 donate--footer tablet--btn">
 				<h4 class="text-white pb-3">Donate</h4>
 				<a class="btn btn-outline-red2 btn-lg pl-5 pr-5 rounded-0" href="#" role="button">Donate Now <i class="fas fa-angle-double-right fa-fw fa-lg"></i></a>
 			</div>
