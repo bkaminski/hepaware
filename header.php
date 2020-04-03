@@ -24,9 +24,11 @@
 </head>
 <body <?php body_class(); ?>>
 	<?php if ( is_front_page() ) { 
-		get_template_part( 'parts/page', 'subheader' );
+		echo "<div class='sub-header'>
+				<p class='text-center text-white pt-2'>Some text can go here.</p>
+			  </div>";
 	} else {
-		
+		//nothing special	
 	}?>
 	
 	<?php get_template_part( 'parts/home', 'nav' ); ?>

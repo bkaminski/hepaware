@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 <header>
-	<?php get_template_part( 'parts/page', 'tag-header' ); ?>
-
+	<div class="page-header">
+		<h1 class="text-white text-center pt-5">Related Topics</h1>
+	</div>
 </header>
 <div class="container">
 	<div class="alert alert-dark mt-3">

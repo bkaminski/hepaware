@@ -1,3 +1,6 @@
+<div class="page-header">
+	<h1 class="text-white text-center pt-5">In the News</h1>
+</div>
 <div class="int-body">
 	<div class="container mainbody pt-3">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
