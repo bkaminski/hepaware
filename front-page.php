@@ -15,8 +15,8 @@
 	<?php get_template_part( 'parts/home', 'affiliates' ); ?>
 
 </section>
-<aside>
+<article>
 	<?php get_template_part( 'parts/home', 'news' ); ?>
 
-</aside>
+</article>
 <?php get_footer(); ?>
