@@ -1,6 +1,6 @@
 <div class="affiliates">
 	<div class="container pb-5">
-		<h2 class="h5 text-center secondary-heading text-uppercase pt-5 pb-3">Affiliates</h2>
+		<h2 class="h5 text-center secondary-heading text-uppercase pt-5 pb-3">Community Partners</h2>
 		<div class="row">
 			<div class="col-md-3">
 				<?php $uploads = wp_upload_dir(); 

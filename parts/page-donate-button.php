@@ -1,4 +1,4 @@
-<div id="cpd0499fc550" style="margin: 10px 0;" class="rounded-div" onclick="document.getElementById('pay_now_form_b699049a1f').submit()">
+<div id="cpd0499fc550" style="margin: 10px 0;" class="rounded-div mx-auto d-block" onclick="document.getElementById('pay_now_form_b699049a1f').submit()">
     <form action="https://checkout.globalgatewaye4.firstdata.com/pay" id="pay_now_form_b699049a1f" method="post">
         <input type="hidden" name="x_login" value="WSP-HEPAW-3WPBNQDSPg" />
         <input type="hidden" name="x_show_form" value="PAYMENT_FORM" />
@@ -10,7 +10,7 @@
         <input type="hidden" name="x_relay_response" value="" />
         <input type="hidden" name="donation_prompt" value="Please enter the amount you wish to donate" />
         <input type="hidden" name="button_code" value="Donate Now HepAware" />
-        <div class="cpwrap mx-auto">
+        <div class="cpwrap">
         	<button type="button">Donate Now <i class="fas fa-angle-double-right fa-fw fa-lg"></i></button>
         </div>
     </form>

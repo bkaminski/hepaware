@@ -3,12 +3,11 @@
 		<div class="row">
 			<div class="col col-sm-6 col-md-4">
 				<h4 class="text-white">Contact</h4>
-				<address>
-					HepAware<br />
-					123 Market St.<br />
-					Wilmington, DE 19803<br />
-					(302) 333-7888
-				</address>
+				
+					HepAware, Delaware<br />
+					(302) 287-2805<br />
+					hepawarede@gmail.com
+				
 
 			</div>
 			<div class="col col-sm-6 col-md-4 footer-links">
@@ -22,7 +21,7 @@
 					</ul>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 donate--footer tablet--btn">
-				<h4 class="text-white pb-3">Donate</h4>
+				<h4 class="pl-5 text-white pb-3">Donate</h4>
 				<?php get_template_part( 'parts/page', 'donate-button' ); ?>
 			</div>
 		</div>
